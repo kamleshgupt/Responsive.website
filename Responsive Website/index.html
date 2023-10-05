@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>/* Reset some default styles for consistency */
+    body, h1, h2, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Basic styling for the header */
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    /* Style the navigation bar */
+    nav {
+        background-color: #444;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    /* Style the main content area */
+    main {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    
+    /* Style the footer */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    /* Media query for responsiveness */
+    @media (max-width: 768px) {
+        header {
+            font-size: 24px;
+        }
+        
+        nav li {
+            margin-right: 10px;
+        }
+        
+        main {
+            padding: 10px;
+        }
+    }
+    </style>
+<body>
+    <header>
+        <h1>My Responsive Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Welcome to Our Website</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor nisl eget ex euismod, ac vehicula nunc tristique.</p>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Responsive Website</p>
+    </footer>
+</body>
+</html>
